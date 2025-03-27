@@ -10,19 +10,26 @@
 # print(msg)
 
 # Progama de disparo de alarme
-# porta = 'f'
-# janela = 'f'
+n1 = 1
+n2 = 2
+alarme = str
 
-# alarme = (porta == 'a') or (janela == 'a')
-# atenção = ('O alarme foi disparado!!!' + str(alarme) + '\n')
+n1 = str(input("A porta está aberta? "))
+n2 = str(input("A janela está aberta? "))
+alarme = (n1 != n2)
 
-# if alarme != 'f'
-# print("Causa do disparado: ")
 
-# else:
-# print("Causa do disparo invalida: ")
+if (alarme == True):
+    print("O alarme foi disparado.")
+# elif (n1 != n2):
+#     (n1 == print('Feche a porta'))
+# elif (n2 != n1):
+#     (n1 == print('Feche a janela'))
+else:
+    print("O alarme está estável!")
 
-tem_dinheiro = False
-tem_dinheiro = not tem_dinheiro
-msg = 'Tem dinheiro? ' + str(tem_dinheiro)
-print(msg)
+
+# tem_dinheiro = False
+# tem_dinheiro = not tem_dinheiro
+# msg = 'Tem dinheiro? ' + str(tem_dinheiro)
+# print(msg)
